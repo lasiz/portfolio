@@ -12,10 +12,10 @@ const Navbar = () => {
           className="w-auto overflow-y-hidden h-8 rounded flex flex-row items-center"
         >
           <Image
-            src="/btn.png"
+            src="/ALAZIR.png"
             alt="logo"
-            width={100}
-            height={100}
+            width={80}
+            height={130}
             className="cursor-pointer hover:animate-slowspin rounded-full"
           />
         </a>
