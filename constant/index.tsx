@@ -5,7 +5,7 @@ export const Social_Icons = [
     alt: "Github",
   },
   {
-    link: "https://www.instagram.com/empty.hex/?hl=en",
+    link: "https://www.instagram.com/sooooo.lazy",
     image: "/Instagram.svg",
     alt: "Instagram",
   },
