@@ -401,7 +401,7 @@ const D2 = () => {
                                     textAlign: "left"
                                 }}
                             >
-                                if (Key == 'A') {"{"} // 'A' tugmasi bosildi {"}"} {"}"}
+                                if (Key == 'A') {"{"} "//" 'A' tugmasi bosildi {"}"} {"}"}
                             </p>
                         </li>
                         <li data-list-text={2}>
@@ -445,7 +445,7 @@ const D2 = () => {
                                     textAlign: "center"
                                 }}
                             >
-            // Chapga o‘tish tugmasi qo‘yildi {"}"} {"}"}
+            "//" Chapga o‘tish tugmasi qo‘yildi {"}"} {"}"}
                             </p>
                         </li>
                         <li data-list-text={3}>
@@ -499,7 +499,7 @@ const D2 = () => {
                                 textAlign: "left"
                             }}
                         >
-          // O‘ngga o‘tish tugmasi qo‘yilmagan {"}"} {"}"}
+          "//" O‘ngga o‘tish tugmasi qo‘yilmagan {"}"} {"}"}
                         </p>
                     </div>
                 </li>
@@ -622,7 +622,7 @@ const D2 = () => {
                                     textAlign: "justify"
                                 }}
                             >
-                                myCheckBox-&gt;Checked = true; // Belgi tanlangan
+                                myCheckBox-&gt;Checked = true;" //" Belgi tanlangan
                             </p>
                         </li>
                         <li data-list-text={4}>
@@ -1522,7 +1522,7 @@ const D2 = () => {
                                     textAlign: "left"
                                 }}
                             >
-            // Komponent bosildi {"}"}
+           " //" Komponent bosildi {"}"}
                             </p>
                         </li>
                         <li data-list-text={2}>
@@ -1559,7 +1559,7 @@ const D2 = () => {
                                     textAlign: "left"
                                 }}
                             >
-            // Komponent ikki marta bosildi {"}"}
+           " //" Komponent ikki marta bosildi {"}"}
                             </p>
                         </li>
                         <li data-list-text={3}>
@@ -1594,7 +1594,7 @@ const D2 = () => {
                                     textAlign: "left"
                                 }}
                             >
-            // Foydalanuvchi komponentga o'tdi {"}"}
+           " //" Foydalanuvchi komponentga o'tdi {"}"}
                             </p>
                         </li>
                         <li data-list-text={4}>
@@ -1633,7 +1633,7 @@ const D2 = () => {
                             textAlign: "left"
                         }}
                     >
-        // Foydalanuvchi komponentdan chiqib ketdi {"}"}
+       " //" Foydalanuvchi komponentdan chiqib ketdi {"}"}
                     </p>
                     <p style={{ paddingTop: "1pt", textIndent: "0pt", textAlign: "left" }}>
                         <br />
@@ -3928,7 +3928,7 @@ const D2 = () => {
                     textAlign: "left"
                 }}
             >
-                radioButton-&gt;Parent = this; // Bu yerda 'this' o'rniga radio tugmani
+                radioButton-&gt;Parent = this;" //" Bu yerda 'this' o'rniga radio tugmani
                 joylashtirmoqchi bo'lgan konteyneringizni ko'rsatishingiz kerak
             </p>
             <p
@@ -4444,7 +4444,7 @@ const D2 = () => {
                     textAlign: "left"
                 }}
             >
-                image-&gt;Parent = this; // Bu yerda 'this' o'rniga rasmni joylashtirmoqchi
+                image-&gt;Parent = this;" //" Bu yerda 'this' o'rniga rasmni joylashtirmoqchi
                 bo'lgan konteyneringizni ko'rsatishingiz kerak
             </p>
             <p
@@ -4716,7 +4716,7 @@ const D2 = () => {
                     textAlign: "left"
                 }}
             >
-                img-&gt;Parent = this; // Rasmni oynaga biriktirish
+                img-&gt;Parent = this;" //" Rasmni oynaga biriktirish
             </p>
             <p
                 className="s14"
@@ -4728,7 +4728,7 @@ const D2 = () => {
                     textAlign: "left"
                 }}
             >
-                img-&gt;OnMouseMove = &amp;ImageMouseMove; {"}"} // OnMouseMove hodisasini
+                img-&gt;OnMouseMove = &amp;ImageMouseMove; {"}"}" //" OnMouseMove hodisasini
                 ImageMouseMove metodiga bog'lash
             </p>
             <p
@@ -8490,7 +8490,7 @@ const D2 = () => {
                             textAlign: "left"
                         }}
                     >
-        // Kod so'rov bekor qilingandan keyin bajariladi {"}"}
+       " //" Kod so'rov bekor qilingandan keyin bajariladi {"}"}
                     </p>
                     <p
                         style={{
@@ -8521,7 +8521,7 @@ const D2 = () => {
                             textAlign: "left"
                         }}
                     >
-        // Kod so'rov yopilgandan keyin bajariladi {"}"}
+       " //" Kod so'rov yopilgandan keyin bajariladi {"}"}
                     </p>
                     <p
                         style={{
@@ -8537,7 +8537,7 @@ const D2 = () => {
                         TForm1::YourAfterDeleteHandler(TDataSet *DataSet) {"{"}
                     </p>
                     <p style={{ paddingLeft: "7pt", textIndent: "0pt", textAlign: "left" }}>
-        // Kod qator o'chirilgandan keyin bajariladi {"}"}
+       " //" Kod qator o'chirilgandan keyin bajariladi {"}"}
                     </p>
                     <p
                         style={{
@@ -8568,7 +8568,7 @@ const D2 = () => {
                             textAlign: "left"
                         }}
                     >
-        // Kod so'rov ochilgandan keyin bajariladi {"}"}
+       " //" Kod so'rov ochilgandan keyin bajariladi {"}"}
                     </p>
                     <p
                         style={{
@@ -8591,7 +8591,7 @@ const D2 = () => {
                             textAlign: "left"
                         }}
                     >
-        // Kod yozuvlar saqlangandan keyin bajariladi {"}"}
+       " //" Kod yozuvlar saqlangandan keyin bajariladi {"}"}
                     </p>
                     <p
                         style={{
@@ -8607,7 +8607,7 @@ const D2 = () => {
                         TForm1::YourBeforeCancelHandler(TDataSet *DataSet) {"{"}
                     </p>
                     <p style={{ paddingLeft: "7pt", textIndent: "0pt", textAlign: "left" }}>
-        // Kod so'rov bekor qilinishidan oldin bajariladi
+       " //" Kod so'rov bekor qilinishidan oldin bajariladi
                     </p>
                     <p
                         style={{
@@ -8648,7 +8648,7 @@ const D2 = () => {
                             textAlign: "left"
                         }}
                     >
-        // Kod so'rov yopilishidan oldin bajariladi {"}"}
+       " //" Kod so'rov yopilishidan oldin bajariladi {"}"}
                     </p>
                     <p
                         style={{
@@ -8671,7 +8671,7 @@ const D2 = () => {
                             textAlign: "left"
                         }}
                     >
-        // Kod qator o'chirilishidan oldin bajariladi {"}"}
+       " //" Kod qator o'chirilishidan oldin bajariladi {"}"}
                     </p>
                 </li>
                 <li data-list-text="50)">
@@ -8851,7 +8851,7 @@ const D2 = () => {
                             textAlign: "left"
                         }}
                     >
-        // Kod sichqoncha bosilganda bajariladi {"}"}
+       " //" Kod sichqoncha bosilganda bajariladi {"}"}
                     </p>
                     <p
                         style={{
@@ -8878,7 +8878,7 @@ const D2 = () => {
                             textAlign: "left"
                         }}
                     >
-        // Kod sichqoncha ikki marta bosilganda bajariladi {"}"}
+       " //" Kod sichqoncha ikki marta bosilganda bajariladi {"}"}
                     </p>
                     <p
                         style={{
@@ -8911,7 +8911,7 @@ const D2 = () => {
                             textAlign: "left"
                         }}
                     >
-        // Kod sichqoncha komponent ustiga kiritilganda bajariladi {"}"}
+       " //" Kod sichqoncha komponent ustiga kiritilganda bajariladi {"}"}
                     </p>
                 </li>
                 <li data-list-text="52)">
