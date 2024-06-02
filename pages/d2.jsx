@@ -2,7 +2,7 @@ const D2 = () => {
     return (
         <>
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-            <title>237978c8-9442-4cad-99f8-2c512a7ba04a</title>
+            <title>D2</title>
             <meta name="author" content="Jahongir Xalilov" />
             <style
                 type="text/css"
@@ -186,8 +186,8 @@ const D2 = () => {
                     textAlign: "left"
                 }}
             >
-                OpenDialog1-&gt;Filter = "Matn fayllari (*.txt)|*.TXT|Barcha fayllar
-                (*.*)|*.*"; SaveDialog1-&gt;Filter = "Matn fayllari (*.txt)|*.TXT|Barcha
+                OpenDialog1-&gt;Filter = &quot;Matn fayllari (*.txt)|*.TXT|Barcha fayllar
+                (*.*)|*.*"; SaveDialog1-&gt;Filter = &quot;Matn fayllari (*.txt)|*.TXT|Barcha
                 fayllar (*.*)|*.*"; {"}"}
             </p>
             <p
