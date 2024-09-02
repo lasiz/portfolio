@@ -90,8 +90,9 @@ const Privacy = () => {
     <p>
       If you have questions or comments about this Privacy Policy, please
       contact us at:{" "}
-      <a href="mailto:dev.iproger@gmail.com">your-email@example.com</a>
+      <a href="mailto:dev.iproger@gmail.com">dev.iproger@gmail.com</a>
     </p>
+    <p textAlign="right">Laziz Tojiboyev</p>
         </>
     )
 }
