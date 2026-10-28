@@ -1,45 +1,46 @@
-import { Social_Icons } from "@/constant";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import { profile } from "@/constant/profile";
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <div className=" container mx-auto 2xl pt-[50px] pb-8 ">
-      <div className="pb-10 justify-center flex ">
-        {Social_Icons.map((social) => {
-          return (
-            <Link
-              href={social.link}
-              rel="noopener noreferrer"
-              target="_blank"
-              key={social.alt}
-              className="z-[1]"
-            >
-              <Image
-                src={social.image}
-                height={30}
-                width={30}
-                className="mx-5"
-                alt={social.alt}
-              />
-            </Link>
-          );
-        })}
-      </div>
-        <p className="text-gray-300 text-center text-sm">
-            🌟 Unleashing the Web&#39;s Magic | Laziz, The Wizard of Frontend 🧙‍♂️
-            <br/>
-
-            Dancing in the realms of code, I sculpt digital dreams into reality. Your website&#39;s story deserves to be
-            told with pixel-perfect precision and enchanting user experiences.
-            <br/>
-
-            {/* eslint-disable-next-line react/no-unescaped-entities */}
-            🚀 Launching Tomorrow&#39;s Designs Today | Innovator • Creator • Frontend Sorcerer
+    <footer className="border-t border-[#21262d] py-10 mt-16 text-sm text-[#8b949e]">
+      <div className="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="flex flex-wrap items-center gap-5">
+          <a
+            href={profile.sameAs.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors"
+          >
+            GitHub
+          </a>
+          <a
+            href={profile.sameAs.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors"
+          >
+            LinkedIn
+          </a>
+          <a
+            href={profile.sameAs.telegram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors"
+          >
+            Telegram
+          </a>
+          <a
+            href={`mailto:${profile.email}`}
+            className="hover:text-white transition-colors"
+          >
+            Email
+          </a>
+        </div>
+        <p className="text-xs text-[#6e7681]">
+          © {new Date().getFullYear()} {profile.name} • {profile.location}
         </p>
-    </div>
+      </div>
+    </footer>
   );
-};
-
-export default Footer;
+}

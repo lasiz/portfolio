@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0b0d10"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <rect width="504" height="504" x="4" y="4" rx="124" fill="none" stroke="#21262d" stroke-width="8"/>
+
+  <!-- Letter L (Laziz) - Crisp White -->
+  <path d="M 132 144 L 132 368 L 228 368"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="56"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Letter T (Tojiboyev) - Vibrant Sky Cyan Accent -->
+  <path d="M 256 144 L 380 144"
+        fill="none"
+        stroke="url(#cyanGrad)"
+        stroke-width="56"
+        stroke-linecap="round"/>
+  <path d="M 318 144 L 318 368"
+        fill="none"
+        stroke="url(#cyanGrad)"
+        stroke-width="56"
+        stroke-linecap="round"/>
+</svg>

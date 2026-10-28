@@ -1,22 +1,22 @@
+import { profile } from "./profile";
+
+export * from "./profile";
+export * from "./projects";
+
 export const Social_Icons = [
   {
-    link: "https://github.com/lazizbekdev/",
+    link: profile.sameAs.github,
     image: "/Github.svg",
-    alt: "Github",
+    alt: "GitHub",
   },
   {
-    link: "https://www.instagram.com/sooooo.lazy",
-    image: "/Instagram.svg",
-    alt: "Instagram",
-  },
-  {
-    link: "https://www.linkedin.com/in/lazizbe/",
+    link: profile.sameAs.linkedin,
     image: "/LinkedIn.svg",
     alt: "LinkedIn",
   },
   {
-    link: "https://t.me/blogiz/",
+    link: profile.sameAs.telegram,
     image: "/telegram.svg",
     alt: "Telegram",
-  }
+  },
 ];
